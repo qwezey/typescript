@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "description": "QweZey's opinionated typescript/eslint/prettier config for any typescript project",
   "main": "dist/index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "prepublishOnly": "npm run build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/qwezey/typescript.git"
