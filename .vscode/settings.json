@@ -1,0 +1,7 @@
+{
+  "cSpell.words": ["dbaeumer", "devcontainers", "esbenp", "qwezey", "yzhang"],
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}

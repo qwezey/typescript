@@ -3,5 +3,16 @@
   "image": "mcr.microsoft.com/devcontainers/base:noble",
   "features": {
     "ghcr.io/devcontainers/features/node:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "dbaeumer.vscode-eslint",
+        "github.vscode-github-actions",
+        "yzhang.markdown-all-in-one",
+        "esbenp.prettier-vscode"
+      ]
+    }
   }
 }
