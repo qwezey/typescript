@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["ESNext"],
+    "module": "NodeNext",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "pretty": true,
+    "strict": true,
+    "target": "ESNext",
+    "checkJs": true,
+    "noEmit": true,
+    "rewriteRelativeImportExtensions": true,
+    "noUncheckedIndexedAccess": true
+  }
+}
