@@ -1,0 +1,25 @@
+{
+  "name": "@qwezey/typescript",
+  "version": "0.0.1",
+  "description": "QweZey's opinionated typescript/eslint/prettier config for any typescript project",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qwezey/typescript.git"
+  },
+  "keywords": [
+    "typescript",
+    "eslint",
+    "prettier",
+    "config",
+    "opinionated",
+    "strict"
+  ],
+  "author": "QweZey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qwezey/typescript/issues"
+  },
+  "homepage": "https://github.com/qwezey/typescript#readme"
+}
