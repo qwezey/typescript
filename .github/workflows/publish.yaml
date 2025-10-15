@@ -1,0 +1,21 @@
+on:
+  push:
+    branches:
+      - main
+      - work
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v6
+      - run: npm ci
+      - run: mkdir publish
+      - run: mv dist src LICENSE package.json README.md tsconfig.json publish
+
+      - run: ls -al
+      - run: ls -al
+        working-directory: publish
+
+      # - run: npm publish
+      #   working-directory: publish
