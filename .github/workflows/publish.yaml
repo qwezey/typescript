@@ -12,10 +12,5 @@ jobs:
       - run: npm ci
       - run: mkdir publish
       - run: mv dist src LICENSE package.json README.md tsconfig.json publish
-
-      - run: ls -al
-      - run: ls -al
+      - run: npm publish --access public
         working-directory: publish
-
-      # - run: npm publish
-      #   working-directory: publish
