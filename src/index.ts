@@ -6,15 +6,11 @@ import {defineConfig} from 'eslint/config';
 
 export const qwezeyEslintConfig = defineConfig(
   eslint.configs.recommended,
-  tseslint.configs.strictTypeChecked,
+  tseslint.configs.recommendedTypeChecked,
   tseslint.configs.stylisticTypeChecked,
   {languageOptions: {parserOptions: {projectService: true}}},
   {
     rules: {
-      '@typescript-eslint/no-unsafe-assignment': 'off',
-      '@typescript-eslint/no-confusing-void-expression': 'off',
-      '@typescript-eslint/no-non-null-assertion': 'off',
-      '@typescript-eslint/restrict-template-expressions': 'off',
       'no-warning-comments': ['warn', {terms: ['todo'], location: 'start'}],
     },
   },
