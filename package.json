@@ -1,0 +1,40 @@
+{
+  "name": "@qwezey/typescript",
+  "type": "module",
+  "version": "0.0.2",
+  "description": "QweZey's opinionated typescript/eslint/prettier config for any typescript project",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "postinstall": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qwezey/typescript.git"
+  },
+  "keywords": [
+    "typescript",
+    "eslint",
+    "prettier",
+    "config",
+    "opinionated",
+    "strict"
+  ],
+  "author": "QweZey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qwezey/typescript/issues"
+  },
+  "homepage": "https://github.com/qwezey/typescript#readme",
+  "dependencies": {
+    "@eslint/js": "^9.37.0",
+    "eslint": "^9.37.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-prettier": "^5.5.4",
+    "jiti": "^2.6.1",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.1"
+  }
+}

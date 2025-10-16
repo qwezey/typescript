@@ -1,0 +1,20 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v6
+        with:
+          registry-url: 'https://registry.npmjs.org/'
+      - run: npm ci
+      - run: mkdir publish
+      - run: mv dist src LICENSE package.json README.md tsconfig.json publish
+      - run: npm publish --access public
+        working-directory: publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
