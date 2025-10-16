@@ -10,6 +10,8 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v6
+        with:
+          registry-url: 'https://registry.npmjs.org/'
       - run: npm ci
       - run: mkdir publish
       - run: mv dist src LICENSE package.json README.md tsconfig.json publish
