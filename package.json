@@ -5,8 +5,7 @@
   "description": "QweZey's opinionated typescript/eslint/prettier config for any typescript project",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc -p tsconfig.build.json",
-    "postinstall": "npm run build"
+    "build": "tsc -p tsconfig.build.json"
   },
   "repository": {
     "type": "git",
