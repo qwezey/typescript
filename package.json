@@ -1,7 +1,7 @@
 {
   "name": "@qwezey/typescript",
   "type": "module",
-  "version": "0.0.",
+  "version": "0.0.5",
   "description": "QweZey's opinionated typescript/eslint/prettier config for any typescript project",
   "exports": {
     "./eslint": "./dist/eslint.js",
