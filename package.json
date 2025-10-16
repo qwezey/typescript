@@ -1,9 +1,12 @@
 {
   "name": "@qwezey/typescript",
   "type": "module",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "QweZey's opinionated typescript/eslint/prettier config for any typescript project",
-  "main": "dist/index.js",
+  "exports": {
+    "eslint": "./dist/eslint.js",
+    "prettier": "./dist/prettier.js"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.build.json"
   },
@@ -29,7 +32,6 @@
     "@eslint/js": "^9.37.0",
     "eslint": "^9.37.0",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-prettier": "^5.5.4",
     "jiti": "^2.6.1",
     "prettier": "^3.6.2",
