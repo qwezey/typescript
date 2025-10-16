@@ -1,10 +1,10 @@
 {
   "name": "@qwezey/typescript",
   "type": "module",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "QweZey's opinionated typescript/eslint/prettier config for any typescript project",
   "exports": {
-    ".": "./dist/index.js",
+    ".": "./tsconfig.json",
     "./eslint": "./dist/eslint.js",
     "./prettier": "./dist/prettier.js"
   },
