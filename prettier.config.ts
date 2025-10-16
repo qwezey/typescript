@@ -1,3 +1,3 @@
-import {qwezeyPrettierConfig} from './src/index.ts';
+import {qwezeyPrettierConfig} from './src/prettier.ts';
 
 export default qwezeyPrettierConfig;

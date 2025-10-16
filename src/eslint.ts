@@ -1,8 +1,7 @@
-import type {Config} from 'prettier';
 import eslint from '@eslint/js';
-import tseslint from 'typescript-eslint';
 import eslintPluginPrettier from 'eslint-plugin-prettier/recommended';
 import {defineConfig} from 'eslint/config';
+import tseslint from 'typescript-eslint';
 
 export const qwezeyEslintConfig = defineConfig(
   eslint.configs.recommended,
@@ -16,11 +15,3 @@ export const qwezeyEslintConfig = defineConfig(
   },
   eslintPluginPrettier,
 );
-
-export const qwezeyPrettierConfig: Config = {
-  bracketSpacing: false,
-  singleQuote: true,
-  trailingComma: 'all',
-  arrowParens: 'avoid',
-  objectWrap: 'collapse',
-};

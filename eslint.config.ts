@@ -1,3 +1,3 @@
-import {qwezeyEslintConfig} from './src/index.ts';
+import {qwezeyEslintConfig} from './src/eslint.ts';
 
 export default qwezeyEslintConfig;
