@@ -12,6 +12,7 @@ jobs:
         with:
           registry-url: 'https://registry.npmjs.org/'
       - run: npm ci
+      - run: npm run build
       - run: mkdir publish
       - run: mv dist src LICENSE package.json README.md tsconfig.json publish
       - run: npm publish --access public
