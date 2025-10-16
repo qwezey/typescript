@@ -1,9 +1,7 @@
 {
   "name": "@qwezey/typescript",
   "image": "mcr.microsoft.com/devcontainers/base:noble",
-  "features": {
-    "ghcr.io/devcontainers/features/node:1": {}
-  },
+  "features": {"ghcr.io/devcontainers/features/node:1": {}},
   "customizations": {
     "vscode": {
       "extensions": [
