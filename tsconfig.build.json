@@ -8,5 +8,5 @@
     "noEmit": false,
     "skipLibCheck": true
   },
-  "files": ["src/eslint.ts", "src/prettier.ts"]
+  "files": ["src/index.ts", "src/eslint.ts", "src/prettier.ts"]
 }
