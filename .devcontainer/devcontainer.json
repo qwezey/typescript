@@ -11,7 +11,8 @@
         "dbaeumer.vscode-eslint",
         "github.vscode-github-actions",
         "yzhang.markdown-all-in-one",
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+        "eamodio.gitlens"
       ]
     }
   }
