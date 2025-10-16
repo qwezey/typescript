@@ -4,8 +4,8 @@
   "version": "0.0.4",
   "description": "QweZey's opinionated typescript/eslint/prettier config for any typescript project",
   "exports": {
-    "eslint": "./dist/eslint.js",
-    "prettier": "./dist/prettier.js"
+    "./eslint": "./dist/eslint.js",
+    "./prettier": "./dist/prettier.js"
   },
   "scripts": {
     "build": "tsc -p tsconfig.build.json"
