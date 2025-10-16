@@ -1,9 +1,7 @@
 {
   "name": "@qwezey/typescript",
   "image": "mcr.microsoft.com/devcontainers/base:noble",
-  "features": {
-    "ghcr.io/devcontainers/features/node:1": {}
-  },
+  "features": {"ghcr.io/devcontainers/features/node:1": {}},
   "customizations": {
     "vscode": {
       "extensions": [
@@ -11,7 +9,8 @@
         "dbaeumer.vscode-eslint",
         "github.vscode-github-actions",
         "yzhang.markdown-all-in-one",
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+        "eamodio.gitlens"
       ]
     }
   }

@@ -1,5 +1,12 @@
 {
-  "cSpell.words": ["dbaeumer", "devcontainers", "esbenp", "qwezey", "yzhang"],
+  "cSpell.words": [
+    "dbaeumer",
+    "devcontainers",
+    "eamodio",
+    "esbenp",
+    "qwezey",
+    "yzhang"
+  ],
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
