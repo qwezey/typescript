@@ -8,6 +8,9 @@
     "./eslint": "./dist/eslint.js",
     "./prettier": "./dist/prettier.js"
   },
+  "bin": {
+    "qwezey-typescript": "./dist/bin/index.js"
+  },
   "files": [
     "dist",
     "src",
@@ -17,7 +20,7 @@
     "tsconfig.json"
   ],
   "scripts": {
-    "build": "tsc -p tsconfig.build.json"
+    "build": "tsc -p tsconfig.build.json && npx -yp @vercel/ncc build src/bin.ts -o dist/bin -s"
   },
   "repository": {
     "type": "git",
@@ -46,5 +49,10 @@
     "prettier": "^3.6.2",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.46.1"
+  },
+  "devDependencies": {
+    "@actions/exec": "^1.1.1",
+    "@types/node": "^22",
+    "commander": "^14.0.1"
   }
 }
