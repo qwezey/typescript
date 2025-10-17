@@ -4,7 +4,7 @@
   "engines": {
     "node": "22"
   },
-  "version": "0.0.9",
+  "version": "1.0.0",
   "description": "An opinionated and strict ESLint, Prettier, and TypeScript configuration with a simple setup command to get you started quickly.",
   "exports": {
     ".": "./tsconfig.json",
