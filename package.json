@@ -4,8 +4,8 @@
   "engines": {
     "node": "22"
   },
-  "version": "0.0.9",
-  "description": "QweZey's opinionated typescript/eslint/prettier config for any typescript project",
+  "version": "1.0.0",
+  "description": "An opinionated and strict ESLint, Prettier, and TypeScript configuration with a simple setup command to get you started quickly.",
   "exports": {
     ".": "./tsconfig.json",
     "./eslint": "./dist/eslint.js",
@@ -23,7 +23,7 @@
     "tsconfig.json"
   ],
   "scripts": {
-    "build": "tsc -p tsconfig.build.json && npx -yp @vercel/ncc build src/bin.ts -o dist/bin -s"
+    "build": "tsc -p tsconfig.build.json && npx -yp @vercel/ncc build src/bin.ts -o dist/bin"
   },
   "repository": {
     "type": "git",
@@ -44,8 +44,8 @@
   },
   "homepage": "https://github.com/qwezey/typescript#readme",
   "dependencies": {
-    "@eslint/js": "^9.37.0",
-    "eslint": "^9.37.0",
+    "@eslint/js": "^9.38.0",
+    "eslint": "^9.38.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
     "jiti": "^2.6.1",
