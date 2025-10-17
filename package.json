@@ -1,6 +1,9 @@
 {
   "name": "@qwezey/typescript",
   "type": "module",
+  "engines": {
+    "node": "22"
+  },
   "version": "0.0.8",
   "description": "QweZey's opinionated typescript/eslint/prettier config for any typescript project",
   "exports": {
