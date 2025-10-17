@@ -1,13 +1,26 @@
 # QweZey's TypeScript Configuration
 
-designed for the latest LTS version of nodejs (currently 22.x.x)
+This project provides an opinionated and strict ESLint, Prettier, and TypeScript configuration. It's designed for the latest LTS version of Node.js (currently 22.x.x) and comes with a simple setup command to get you started quickly.
+
+## Features
+
+- **Strict TypeScript Configuration**: Enforces modern and strict TypeScript rules for better code quality and fewer runtime errors.
+- **Prettier Code Formatting**: Includes a Prettier configuration to ensure consistent code style across your project.
+- **Comprehensive ESLint Rules**: Comes with a thorough ESLint configuration that integrates with TypeScript and Prettier to catch common issues and enforce best practices.
+- **Easy Initialization**: A single command sets up your project with all the necessary configurations and dependencies.
 
 ## Getting Started
 
 To set up your TypeScript project with this configuration, run the following command in your terminal:
 
 ```bash
-npx @qwezey/typescript init
+npx -y @qwezey/typescript@latest init
 ```
 
-this command will create (overwriting) typescript configuration, prettier configuration, eslint configuration, and install necessary dependencies.
+This command will perform the following actions:
+
+1.  Create a `package.json` file with `"type": "module"`.
+2.  Create an `eslint.config.ts` file that extends the shared ESLint configuration.
+3.  Create a `prettier.config.ts` file that extends the shared Prettier configuration.
+4.  Create a `tsconfig.json` file that extends the shared TypeScript configuration.
+5.  Install `@qwezey/typescript` as a dev dependency.
