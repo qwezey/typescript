@@ -4,7 +4,7 @@
   "engines": {
     "node": "22"
   },
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "QweZey's opinionated typescript/eslint/prettier config for any typescript project",
   "exports": {
     ".": "./tsconfig.json",
