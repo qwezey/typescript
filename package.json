@@ -23,7 +23,7 @@
     "tsconfig.json"
   ],
   "scripts": {
-    "build": "tsc -p tsconfig.build.json && npx -yp @vercel/ncc build src/bin.ts -o dist/bin"
+    "build": "tsc -p tsconfig.build.json && npx -yp @vercel/ncc@latest build src/bin.ts -o dist/bin"
   },
   "repository": {
     "type": "git",
