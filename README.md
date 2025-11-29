@@ -1,6 +1,6 @@
 # QweZey's TypeScript Configuration
 
-This project provides an opinionated and strict ESLint, Prettier, and TypeScript configuration. It's designed for the latest LTS version of Node.js (currently 22.x.x) and comes with a simple setup command to get you started quickly.
+This project provides an opinionated and strict ESLint, Prettier, and TypeScript configuration. It's designed for the Node.js 24 and comes with a simple setup command to get you started quickly.
 
 ## Features
 
