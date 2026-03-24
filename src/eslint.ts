@@ -11,6 +11,7 @@ export const qwezeyEslintConfig = defineConfig(
   {
     rules: {
       'no-warning-comments': ['warn', {terms: ['todo'], location: 'start'}],
+      '@typescript-eslint/no-unnecessary-condition': 'warn',
     },
   },
   eslintPluginPrettier,
