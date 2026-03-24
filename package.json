@@ -12,7 +12,7 @@
     "./prettier": "./dist/prettier.js"
   },
   "bin": {
-    "qwezey-typescript": "./dist/bin/index.js"
+    "qwezey-typescript": "dist/bin/index.js"
   },
   "files": [
     "dist",
