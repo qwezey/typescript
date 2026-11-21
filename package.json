@@ -4,7 +4,7 @@
   "engines": {
     "node": "24"
   },
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "An opinionated and strict ESLint, Prettier, and TypeScript configuration with a simple setup command to get you started quickly.",
   "exports": {
     ".": "./tsconfig.json",
@@ -12,7 +12,7 @@
     "./prettier": "./dist/prettier.js"
   },
   "bin": {
-    "qwezey-typescript": "dist/bin/index.js"
+    "qwezey-typescript": "dist/bin.js"
   },
   "files": [
     "dist",
@@ -23,7 +23,7 @@
     "tsconfig.json"
   ],
   "scripts": {
-    "build": "tsc -p tsconfig.build.json && npx -yp @vercel/ncc@latest build src/bin.ts -o dist/bin",
+    "build": "tsc -p tsconfig.build.json",
     "local:npm:start": "npx -y verdaccio --listen 0.0.0.0:4873",
     "local:npm:publish": "npm publish --registry http://localhost:4873"
   },
@@ -46,18 +46,18 @@
   },
   "homepage": "https://github.com/qwezey/typescript#readme",
   "dependencies": {
+    "@actions/exec": "^3",
     "@eslint/js": "^10",
+    "commander": "^15",
     "eslint": "^10",
     "eslint-config-prettier": "^10",
     "eslint-plugin-prettier": "^5",
     "jiti": "^2",
     "prettier": "^3",
-    "typescript": "^5",
+    "typescript": "^6",
     "typescript-eslint": "^8"
   },
   "devDependencies": {
-    "@actions/exec": "^3",
-    "@types/node": "^24",
-    "commander": "^14"
+    "@types/node": "^24"
   }
 }
