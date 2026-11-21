@@ -23,7 +23,9 @@
     "tsconfig.json"
   ],
   "scripts": {
-    "build": "tsc -p tsconfig.build.json && npx -yp @vercel/ncc@latest build src/bin.ts -o dist/bin"
+    "build": "tsc -p tsconfig.build.json && npx -yp @vercel/ncc@latest build src/bin.ts -o dist/bin",
+    "local:npm:start": "npx -y verdaccio --listen 0.0.0.0:4873",
+    "local:npm:publish": "npm publish --registry http://localhost:4873"
   },
   "repository": {
     "type": "git",
