@@ -1,7 +1,8 @@
 {
   "name": "@qwezey/typescript",
-  "image": "mcr.microsoft.com/devcontainers/base:noble",
-  "features": {"ghcr.io/devcontainers/features/node:1": {"version": "24"}},
+  "image": "mcr.microsoft.com/devcontainers/base:resolute",
+  "features": {"ghcr.io/devcontainers/features/node:2": {"version": "24"}},
+  "postCreateCommand": "npm completion >> ~/.bashrc",
   "customizations": {
     "vscode": {
       "extensions": [

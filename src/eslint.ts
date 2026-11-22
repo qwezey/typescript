@@ -9,6 +9,7 @@ export const qwezeyEslintConfig = defineConfig(
   tseslint.configs.stylisticTypeChecked,
   {languageOptions: {parserOptions: {projectService: true}}},
   {
+    linterOptions: {noInlineConfig: true},
     rules: {
       'no-warning-comments': ['warn', {terms: ['todo'], location: 'start'}],
       '@typescript-eslint/no-unnecessary-condition': 'warn',
